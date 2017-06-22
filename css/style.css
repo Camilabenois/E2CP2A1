@@ -1,0 +1,235 @@
+html{
+box-sizing: border-box;
+}
+*{
+	margin: 0;
+}
+
+*, *:before, *:after{
+	box-sizing: inherit;
+
+}
+
+.clearfix: before, .clearfix:after{
+	content: "";
+	display: table;
+}
+
+.clearfix:after{
+	clear:  both;
+}
+
+.clearfix{
+	*zoom:  1;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+header{
+	
+	background-image: url('../images/bg.jpeg');
+	width: 100%;
+	height: 450px;
+
+}
+.container{
+	padding-left: 180px;
+	height: 50px;
+}
+
+.logo{
+
+	float: left;
+}
+.logo img{
+	margin-top: 50px;
+	width: 100px;
+	height: 27px;
+
+}
+nav{
+	float:right;
+	width: 30%;
+	margin-top: 40px;
+	font-size: 12px;
+
+}
+nav li{
+
+	list-style-type: none;
+	display: inline;
+	padding: 10px;
+
+
+}
+nav ul li a{
+	text-decoration: none;
+	color: silver;
+}
+
+nav ul li a:hover{
+	background-color: silver;
+	color:  midnightblue;
+}
+
+.texto {
+
+	text-align: center;
+	color: silver;
+	height: 300px;
+	padding-top: 100px;
+	margin: auto;
+	padding-left: 0;
+	width: 400px;
+
+}
+.azul{
+	width: 150px;
+	height: 30px;
+	background-color: dodgerblue;
+	border-radius: 4px;
+	padding-top: 2px;
+	text-align: center;
+	display: inline-block;
+}
+
+.botones{
+	
+	width: 450px;
+	height: 30px;
+	margin: auto;
+	text-align: center;
+
+
+}
+
+.azul a{
+	text-decoration: none;
+	color: white;
+	text-align: center;
+}
+
+.verde{
+	width: 150px;
+	height: 30px;
+	background-color: forestgreen;
+	border-radius: 4px;
+	padding-top: 2px;
+	text-align: center;
+	display: inline-block;
+}
+
+.verde a{
+	text-decoration: none;
+	color: white;
+}
+header p{
+	text-align: center;
+	color: white;
+	font-size: 10px;
+}
+
+.primero{
+	padding-left: 300px;
+	padding-right: 300px;
+	text-align: center;
+}
+.primero h2{
+
+	font-size: 14px;
+}
+.primero p{
+	 font-size: 12px;
+
+}
+section .imagen img{
+
+width: 300px;
+height: 300px;
+}
+section .imagen{
+	text-align: center;
+
+}
+
+.segundo H2{
+	text-align: center;
+	font-size: 14px;
+}
+
+.segundo p{
+	font-size: 12px;
+	text-align: center;
+}
+.segundo{
+	padding-left: 300px;
+	padding-right: 300px;
+}
+.inscribete{
+	width: 150px;
+	height: 30px;
+	background-color: dodgerblue;
+	border-radius: 4px;
+	padding-top: 2px;
+	text-align: center;
+	display: inline-block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.inscribete a{
+
+	text-decoration: none;
+	color: white;
+
+
+}
+p.centrar{
+	font-size: 12px;
+	color: grey;
+}
+.centrar{
+	text-align: center;
+}
+.caja{
+	padding: 40px;
+	background: whitesmoke;
+	border-top: 1px solid grey;
+	border-bottom: 1px solid grey;
+
+}
+footer{
+	background: snow;
+}
+
+.dos_{
+	margin: 0px auto;
+	width: 600px;
+	height: 200px;
+	box-sizing: border-box;
+	padding-top:50px;
+	}
+
+.pri{
+	float: left;
+	line-height: 20px;
+}
+
+.seg{
+	float: left;
+	padding-left: 60px;
+}
+
+
+.final{
+	font-size: 12px;
+	width: 100%;
+	background: gray;
+	height: 50px;
+	color: white;
+	box-sizing: border-box;
+	padding-top: 20px;
+	padding-left: 103px;
+}
+input{}
